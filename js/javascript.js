@@ -166,7 +166,7 @@ function increaseSpd() {
 	if(points % 8 == 0) {
 		level++;
 		window.alert('You are now Level' +level);
-		console.log("level is"+level);
+		console.log("level is "+level);
 
 		
 
