@@ -61,7 +61,7 @@ function MainScreen_canvas() {
 // Function for creating paddles
 function Paddle(pos) {
 	// Height and width
-	this.h = 5;
+	this.h = 10;
 	this.w = 150;
 	
 	// Paddle's position
