@@ -61,7 +61,7 @@ function MainScreen_canvas() {
 // Function for creating paddles
 function Paddle(pos) {
 	// Height and width
-	this.h = 5;
+	this.h = 10;
 	this.w = 150;
 	
 	// Paddle's position
@@ -166,7 +166,7 @@ function increaseSpd() {
 	if(points % 8 == 0) {
 		level++;
 		window.alert('You are now Level' +level);
-		console.log("level is"+level);
+		console.log("level is "+level);
 
 		
 
